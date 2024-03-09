@@ -1,4 +1,4 @@
-# Nu primesc notă pentru că nu am pus titlu și descriere
+Singers este un joc tip music/beat generator (similar cu jocul inredibox). Va consta in mai multe iconite (o pasare, un clopotel, o bataie din palme, un sarpe etc.) care pot fi trecut in stare activa, respectiv inactiva printr-un click. Cand sunt activate, vor crea anumite sunete pe un tempo. Astfel, pot fi activate si dezactivate in multe moduri pentru a crea beat-uri si melodii aparte.# Nu primesc notă pentru că nu am pus titlu și descriere
 
 ### Important!
 Aveți voie cu cod generat de modele de limbaj la care nu ați contribuit semnificativ doar în folder-ul `generated`.
