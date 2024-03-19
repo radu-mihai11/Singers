@@ -158,6 +158,7 @@ int main(){
     user.setUserName(userName);
     std::cout<<"Hi "<<user.getUserName()<<std::endl<<"How many icons will there be?"<<std::endl;
     std::cin>>valueIcons;
+    std::cout<< "Please enter them in the format: Name coordinate coordinate(e.g. Bird 200 85)"<<std::endl;
 
     std::vector<ScreenIcon> screenIcons;
     for(int i=0; i<valueIcons; i++){
