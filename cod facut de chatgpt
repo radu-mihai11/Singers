@@ -1,0 +1,98 @@
+//#include <iostream>
+//#include <vector>
+//#include <string>
+//#include <thread>
+//#include <chrono>
+//#include <mutex>
+//#include <unordered_set>
+//#include <fstream>
+//
+//std::ofstream outFile("output.txt");
+//
+//std::mutex soundMutex;
+//std::unordered_set<std::string> activeSounds;
+//
+//// Dummy function that takes one second to execute
+//void dummyFunction() {
+//    // Sleep for one second
+//    std::this_thread::sleep_for(std::chrono::seconds(1));
+//}
+//
+//// Function that simulates playing a sound
+//void playSound(const std::string& soundName) {
+//    while (activeSounds.find(soundName) != activeSounds.end()) {
+//        outFile << "Playing sound " << soundName << std::endl;
+//        // Call dummy function to simulate sound playback
+//        dummyFunction();
+//    }
+//}
+//
+//// Define the ScreenIcon class
+//class ScreenIcon {
+//private:
+//    std::string name;
+//    bool currentState;
+//
+//public:
+//    ScreenIcon(const std::string& n) : name(n), currentState(false) {}
+//
+//    std::string getName() const {
+//        return name;
+//    }
+//
+//    bool isActive() const {
+//        return currentState;
+//    }
+//
+//    void setActive(bool value) {
+//        currentState = value;
+//        if (currentState) {
+//            activeSounds.insert(name);
+//            std::thread soundThread(playSound, name);
+//            soundThread.detach();
+//        } else {
+//            activeSounds.erase(name);
+//        }
+//    }
+//};
+//
+//int main() {
+//    // Create multiple ScreenIcon objects
+//    std::vector<ScreenIcon> icons;
+//    icons.emplace_back("bird");
+//    icons.emplace_back("snake");
+//    icons.emplace_back("metal");
+//
+//    char input;
+//    bool running = true;
+//
+//    while (running) {
+//        // Display the icons with their indices
+//        std::cout << "Icons:" << std::endl;
+//        for (size_t i = 0; i < icons.size(); ++i) {
+//            std::cout << i + 1 << ". " << icons[i].getName();
+//            if (icons[i].isActive()) {
+//                std::cout << " (Active)";
+//            }
+//            std::cout << std::endl;
+//        }
+//
+//        // Input from the user
+//        std::cout << "Enter the index to activate/deactivate (0 to quit): ";
+//        std::cin >> input;
+//
+//        // Validate input
+//        if (input >= '1' && input <= '3') {
+//            int index = input - '0' - 1; // Convert char to integer index
+//            icons[index].setActive(!icons[index].isActive()); // Toggle active state
+//        } else if (input == '0') {
+//            running = false; // Stop the program
+//        } else {
+//            std::cout << "Invalid input. Please enter a number between 1 and 3." << std::endl;
+//        }
+//    }
+//
+//    outFile.close();
+//
+//    return 0;
+//}

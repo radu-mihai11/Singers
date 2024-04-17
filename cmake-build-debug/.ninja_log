@@ -1,0 +1,19 @@
+# ninja log v5
+9	3434	7350008027200334	CMakeFiles/testari.dir/main.cpp.obj	5f84f6c7dbf964b6
+8679	10840	7350008101590285	CMakeFiles/testari.dir/Metal.cpp.obj	31826ac2896c4bee
+15977	18177	7350008174960999	CMakeFiles/testari.dir/Bird.cpp.obj	59e9764afef44cfe
+18178	18624	7350008179310916	testari.exe	eebe4134cd789d32
+6363	8679	7350008079980275	CMakeFiles/testari.dir/SharedData.cpp.obj	2c6f6e37f0f7493
+9302	10660	7349959060199456	CMakeFiles/testari.dir/Dog.cpp.obj	4a459f0afa9bbb59
+3435	6363	7350008056800301	CMakeFiles/testari.dir/ScreenIcon.cpp.obj	2a6a0c05b0ad2740
+10841	13218	7350008125230311	CMakeFiles/testari.dir/Snake.cpp.obj	25219d129818944f
+13219	15976	7350008152920959	CMakeFiles/testari.dir/UserInput.cpp.obj	91c493b9f05c8803
+17	1884	7350383541676813	build.ninja	c215d08197e27864
+8	3711	7350383583541502	CMakeFiles/testari.dir/ProjectCpps/SharedData.cpp.obj	a554530d4bf24966
+3712	5975	7350383606211493	CMakeFiles/testari.dir/ProjectCpps/Bird.cpp.obj	165ecd54dd139bc4
+5976	8287	7350383629301486	CMakeFiles/testari.dir/ProjectCpps/Metal.cpp.obj	b3875332472ec433
+8288	11159	7350383658041454	CMakeFiles/testari.dir/ProjectCpps/ScreenIcon.cpp.obj	ee74c8391c2e4fa3
+11159	13988	7350383686302722	CMakeFiles/testari.dir/ProjectCpps/UserInput.cpp.obj	1be90ec5442b2b06
+13989	16282	7350383709262741	CMakeFiles/testari.dir/ProjectCpps/Snake.cpp.obj	8a70272093486162
+16283	18775	7350383734173226	CMakeFiles/testari.dir/main.cpp.obj	5f84f6c7dbf964b6
+18775	19584	7350383742003278	testari.exe	67a4ad2b89c12f4a
