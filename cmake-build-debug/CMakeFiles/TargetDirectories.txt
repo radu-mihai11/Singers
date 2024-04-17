@@ -1,0 +1,3 @@
+C:/Users/Spiffy/CLionProjects/testari/cmake-build-debug/CMakeFiles/testari.dir
+C:/Users/Spiffy/CLionProjects/testari/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Spiffy/CLionProjects/testari/cmake-build-debug/CMakeFiles/rebuild_cache.dir
