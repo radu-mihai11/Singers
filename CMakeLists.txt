@@ -14,7 +14,10 @@ add_executable(testari main.cpp
         ProjectHeaders/Snake.h
         ProjectCpps/Metal.cpp
         ProjectHeaders/Metal.h
-        ProjectCpps/UserInput.cpp
         ProjectHeaders/UserInput.h
         ProjectHeaders/InvalidInputException.h
+        ProjectCpps/UserInput.tpp
+        ProjectHeaders/IconFactory.h
+        ProjectCpps/CreateIconFactory.cpp
+        ProjectHeaders/CreateIconFactory.h
 )

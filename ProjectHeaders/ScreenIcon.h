@@ -19,21 +19,24 @@
 
 extern std::ofstream outFile;
 
+template<typename T>
 class ScreenIcon : public SharedData {
 protected:
-    std::string name;
+    T name;
     bool currentState;
 
 public:
-    explicit ScreenIcon(std::string n);
+    explicit ScreenIcon(const T &n);
 
-    [[nodiscard]] virtual std::string getName() const;
+    [[nodiscard]] T getName() const;
 
     [[nodiscard]] bool isActive() const;
 
-    virtual void setActive(bool value);
+    void setActive(bool value);
 
     virtual void playSound() const;
+
+    virtual std::shared_ptr<ScreenIcon<T>> createInstance(const T &name) = 0;
 };
 
 

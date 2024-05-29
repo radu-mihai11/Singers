@@ -2,10 +2,11 @@
 #include "ProjectHeaders/UserInput.h"
 
 int main() {
-    UserInput::run();
 
+    UserInput<char>::run();
     outFile.close();
 
     return 0;
 }
+
 

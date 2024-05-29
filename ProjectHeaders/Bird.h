@@ -14,11 +14,13 @@
 #include "ScreenIcon.h"
 
 
-class Bird : public ScreenIcon {
+class Bird : public ScreenIcon<std::string> {
 public:
     explicit Bird(const std::string &n);
 
     void playSound() const override;
+
+    std::shared_ptr<ScreenIcon<std::string>> createInstance(const std::string &name) override;
 };
 
 

@@ -5,7 +5,8 @@
 
 class InvalidInputException : public std::exception {
 public:
-    const char *what() const noexcept override {
+    [[nodiscard]] const char *what() const noexcept override {
+        std::cout<<"\n";
         return "Invalid input. Please enter a number between 1 and 3.";
     }
 };

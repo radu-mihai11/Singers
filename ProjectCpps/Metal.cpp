@@ -8,3 +8,7 @@ void Metal::playSound() const {
         dummyFunction();
     }
 }
+
+std::shared_ptr<ScreenIcon<std::string>> Metal::createInstance(const std::string &name) {
+    return std::make_shared<Metal>(name);
+}

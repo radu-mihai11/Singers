@@ -85,8 +85,8 @@ build CMakeFiles/testari.dir/ProjectCpps/Metal.cpp.obj: CXX_COMPILER__testari_un
   OBJECT_DIR = CMakeFiles\testari.dir
   OBJECT_FILE_DIR = CMakeFiles\testari.dir\ProjectCpps
 
-build CMakeFiles/testari.dir/ProjectCpps/UserInput.cpp.obj: CXX_COMPILER__testari_unscanned_Debug C$:/Users/Spiffy/CLionProjects/testari/ProjectCpps/UserInput.cpp || cmake_object_order_depends_target_testari
-  DEP_FILE = CMakeFiles\testari.dir\ProjectCpps\UserInput.cpp.obj.d
+build CMakeFiles/testari.dir/ProjectCpps/CreateIconFactory.cpp.obj: CXX_COMPILER__testari_unscanned_Debug C$:/Users/Spiffy/CLionProjects/testari/ProjectCpps/CreateIconFactory.cpp || cmake_object_order_depends_target_testari
+  DEP_FILE = CMakeFiles\testari.dir\ProjectCpps\CreateIconFactory.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testari.dir
   OBJECT_FILE_DIR = CMakeFiles\testari.dir\ProjectCpps
@@ -99,7 +99,7 @@ build CMakeFiles/testari.dir/ProjectCpps/UserInput.cpp.obj: CXX_COMPILER__testar
 #############################################
 # Link the executable testari.exe
 
-build testari.exe: CXX_EXECUTABLE_LINKER__testari_Debug CMakeFiles/testari.dir/main.cpp.obj CMakeFiles/testari.dir/ProjectCpps/SharedData.cpp.obj CMakeFiles/testari.dir/ProjectCpps/ScreenIcon.cpp.obj CMakeFiles/testari.dir/ProjectCpps/Bird.cpp.obj CMakeFiles/testari.dir/ProjectCpps/Snake.cpp.obj CMakeFiles/testari.dir/ProjectCpps/Metal.cpp.obj CMakeFiles/testari.dir/ProjectCpps/UserInput.cpp.obj
+build testari.exe: CXX_EXECUTABLE_LINKER__testari_Debug CMakeFiles/testari.dir/main.cpp.obj CMakeFiles/testari.dir/ProjectCpps/SharedData.cpp.obj CMakeFiles/testari.dir/ProjectCpps/ScreenIcon.cpp.obj CMakeFiles/testari.dir/ProjectCpps/Bird.cpp.obj CMakeFiles/testari.dir/ProjectCpps/Snake.cpp.obj CMakeFiles/testari.dir/ProjectCpps/Metal.cpp.obj CMakeFiles/testari.dir/ProjectCpps/CreateIconFactory.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\testari.dir

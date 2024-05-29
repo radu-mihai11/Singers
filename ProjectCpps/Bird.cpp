@@ -8,3 +8,7 @@ void Bird::playSound() const {
         dummyFunction();
     }
 }
+
+std::shared_ptr<ScreenIcon<std::string>> Bird::createInstance(const std::string &name) {
+    return std::make_shared<Bird>(name);
+}

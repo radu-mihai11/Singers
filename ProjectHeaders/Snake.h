@@ -13,11 +13,13 @@
 #include "ScreenIcon.h"
 
 
-class Snake : public ScreenIcon {
+class Snake : public ScreenIcon<std::string> {
 public:
     explicit Snake(const std::string &n);
 
     void playSound() const override;
+
+    std::shared_ptr<ScreenIcon<std::string>> createInstance(const std::string &name) override;
 };
 
 

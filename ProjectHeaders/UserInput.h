@@ -17,16 +17,16 @@
 #include "Metal.h"
 
 
+template<typename T2>
 class UserInput : public SharedData {
 private:
-    static std::vector<std::shared_ptr<ScreenIcon>> createIcons();
+    static std::vector<std::shared_ptr<ScreenIcon<std::string>>> createIcons();
 
 public:
-    static void displayIcons(const std::vector<std::shared_ptr<ScreenIcon>> &icons);
-
+    static void displayIcons(const std::vector<std::shared_ptr<ScreenIcon<std::string>>> &icons);
     static void run();
-
 };
 
+#include "../ProjectCpps/UserInput.tpp"
 
-#endif //TESTARI_USERINPUT_H
+#endif // TESTARI_USERINPUT_H
